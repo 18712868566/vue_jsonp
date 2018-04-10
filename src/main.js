@@ -6,7 +6,7 @@ import router from './router'
 import axios from "axios"
 import VueJsonp from "vue-jsonp";
 
-Vue.prototype.$http = axios
+Vue.prototype.$axios = axios
 //通过use方法，挂载到vue中
 Vue.use(VueJsonp)
 

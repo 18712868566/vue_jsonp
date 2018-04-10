@@ -6,9 +6,10 @@ import MarkData from '@/components/markData/MarkData'
 Vue.use(Router)
 
 export default new Router({
-    routes: [{
-        path: '/',
-        name: 'MarkData',
-        component: MarkData
-    }]
+  mode: 'history',
+  routes: [{
+    path: '/',
+    name: 'MarkData',
+    component: MarkData
+  }]
 })
